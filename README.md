@@ -1,3 +1,2 @@
-# helloWorld
-Esse é o meu primeiro repositório
-# Testando o github
+# Emakers
+Esse repositório foi criado para fazer projetos da emakers.
