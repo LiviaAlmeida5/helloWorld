@@ -1,10 +1,10 @@
 import "../index.css";
 
-function NavBar(){
+function NavBar() {
     return (
-        <nav className="BarraNavegação" >
+        <header className="BarraNavegação" >
             <div className="retangulo1">
-                <div className="imagemNavbar"></div>
+                <div className="imgNavbar"></div>
                 <link className="lançamentos" href="#">Lançamentos</link>
                 <div className="traço1" ></div>
                 <link className="populares" href="#">Populares</link>
@@ -18,7 +18,7 @@ function NavBar(){
                     <div className="BarraPesquisa" > </div>
                 </div>
             </div>
-        </nav>
+        </header>
     );
 }
 
