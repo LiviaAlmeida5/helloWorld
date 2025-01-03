@@ -1,0 +1,287 @@
+.primeiraTela{
+    position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: #FFFFFF;
+  }
+  
+  .reg{
+    position: absolute;
+    width: 475px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background: #FBF8F4;
+  }
+  
+  .coluna{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 390px;
+  height: 638px;
+  left: 56px;
+  top: 64px;
+  
+  }
+  
+  .registrar{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 290px;
+  height: 78px;
+  left: 106px;
+  top: 64px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 78px;
+  color: #4B626C;
+  }
+  
+  .nomeUsuario{
+    /* Caixa Nome */
+  
+  position: absolute;
+  width: 390px;
+  height: 50px;
+  left: 56px;
+  top: 204px;
+  
+  /* Rectangle 3 */
+  
+  position: absolute;
+  width: 390px;
+  height: 50px;
+  left: 446px;
+  top: 204px;
+  
+  background: #EFEFEF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  /*transform: matrix(-1, 0, 0, 1, 0, 0);/*
+  
+  
+  /* Nome de Usuário */
+  
+  position: absolute;
+  width: 209px;
+  height: 29px;
+  left: 69px;
+  top: 215px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #97A4A2;
+  }
+  
+  .email{
+    /* Caixa Email */
+  
+  position: absolute;
+  width: 390px;
+  height: 50px;
+  left: 56px;
+  top: 316px;
+  
+  /* Rectangle 3 */
+  
+  position: absolute;
+  width: 390px;
+  height: 50px;
+  left: 446px;
+  top: 316px;
+  
+  background: #EFEFEF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+  
+  /* E-mail */
+  
+  position: absolute;
+  width: 209px;
+  height: 29px;
+  left: 69px;
+  top: 327px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #97A4A2;
+  
+  
+  }
+  
+  .cpf{
+    /* Caixa CPF */
+  position: absolute;
+  width: 390px;
+  height: 50px;
+  left: 56px;
+  top: 428px;
+  
+  /* Rectangle 3 */
+  
+  position: absolute;
+  width: 390px;
+  height: 50px;
+  left: 446px;
+  top: 428px;
+  
+  background: #EFEFEF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+  
+  /* CPF */
+  
+  position: absolute;
+  width: 209px;
+  height: 29px;
+  left: 69px;
+  top: 439px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #97A4A2;
+  }
+  
+  .senha{
+    /* Caixa senha */
+  
+  position: absolute;
+  width: 390px;
+  height: 50px;
+  left: 56px;
+  top: 540px;
+  
+  /* Rectangle 3 */
+  
+  position: absolute;
+  width: 390px;
+  height: 50px;
+  left: 446px;
+  top: 540px;
+  
+  background: #EFEFEF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+  
+  /* Senha */
+  
+  position: absolute;
+  width: 209px;
+  height: 29px;
+  left: 69px;
+  top: 551px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #97A4A2;
+  
+  }
+  
+  .confrimarSenha{
+    /* Caixa confirmar senha */
+  
+  position: absolute;
+  width: 390px;
+  height: 50px;
+  left: 56px;
+  top: 652px;
+  
+  /* Rectangle 3 */
+  
+  position: absolute;
+  width: 390px;
+  height: 50px;
+  left: 446px;
+  top: 652px;
+  
+  background: #EFEFEF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+  
+  /* Confirmar Senha */
+  
+  position: absolute;
+  width: 209px;
+  height: 29px;
+  left: 69px;
+  top: 663px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #97A4A2;
+  }
+  
+  .seta{
+  
+  background: url(../imagens/seta.png);
+  box-sizing: border-box;
+  
+  position: absolute;
+  width: 80px;
+  height: 0px;
+  left: 406px;
+  top: 754px;
+  
+  border: 4px solid #4B626C;
+  
+  }
+  
+  .imagem{
+    position: absolute;
+  width: 1024px;
+  height: 1024px;
+  left: 475px;
+  top: 0px;
+  background-size: cover;
+    background: url(../imagens/imagem1.png);
+    
+  }
+  
+  .button-login{
+    position: absolute;
+  width: 155px;
+  height: 31px;
+  left: 56px;
+  top: 949px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #97A4A2;
+  }
+  
+  /*login*/
+  

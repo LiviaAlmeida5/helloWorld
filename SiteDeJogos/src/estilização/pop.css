@@ -1,0 +1,340 @@
+/*tela populares*/
+.terimagem{
+
+    position: absolute;
+    width: 479px;
+    height: 270.84px;
+    left: 134px;
+    top: 913px;
+    
+    background: url(../imagens/ret9.jpg);
+    background-size: cover;
+    }
+  
+  
+  .segimagem{
+  position: absolute;
+  width: 479px;
+  height: 283.15px;
+  left: 852px;
+  top: 567px;
+  
+  background: url(../imagens/Ret10.jpg);
+  background-size: cover;
+  }
+  
+  .pop{
+  
+  position: absolute;
+  width: 190px;
+  height: 44px;
+  left: 109px;
+  top: 132px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  
+  color: #4B626C;
+  }
+  
+  
+  .priimagem{
+  position: absolute;
+  width: 479px;
+  height: 282px;
+  left: 134px;
+  top: 223px;
+  
+  background: url(../imagens/Ret11.jpg);
+  background-size: cover;
+  }
+  
+  .circle1{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 109.01px;
+  top: 205px;
+  
+  background: #4B626C;
+  transform: rotate(0.01deg);
+  border-radius: 100%;
+  }
+  
+  .um{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 109.01px;
+  top: 195px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+  color: #FBF6F0;
+  
+  transform: rotate(0.01deg);
+  }
+  
+  .god{
+  position: absolute;
+  width: 186px;
+  height: 39px;
+  left: 907px;
+  top: 246px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  
+  color: #4B626C;
+  }
+  
+  
+  .pgod{
+  position: absolute;
+  width: 663px;
+  height: 216px;
+  left: 668px;
+  top: 285px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  
+  color: #4B626C;
+  }
+  
+  .circle2{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 827.01px;
+  top: 550px;
+  
+  background: #4B626C;
+  transform: rotate(0.01deg);
+  border-radius: 100%;
+  }
+  
+  .dois{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 827.01px;
+  top: 540px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+  color: #FBF6F0;
+  
+  transform: rotate(0.01deg);
+  }
+  
+  .circle3{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 109.01px;
+  top: 897px;
+  
+  background: #4B626C;
+  transform: rotate(0.01deg);
+  border-radius: 100%;
+  }
+  
+  .tres{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 109.01px;
+  top: 887px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+  
+  color: #FBF6F0;
+  
+  transform: rotate(0.01deg);
+  
+  
+  }
+  
+  .horizon{
+  position: absolute;
+  width: 318px;
+  height: 39px;
+  left: 299px;
+  top: 593px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  
+  color: #4B626C;
+  }
+  
+  
+  .phorizon{
+  position: absolute;
+  width: 648px;
+  height: 168px;
+  left: 134px;
+  top: 632px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  
+  color: #4B626C;
+  }
+  
+  
+  .days{
+  
+  position: absolute;
+  width: 177px;
+  height: 39px;
+  left: 911px;
+  top: 920px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  
+  color: #4B626C;
+  }
+  
+  
+  .pdays{
+  position: absolute;
+  width: 663px;
+  height: 216px;
+  left: 668px;
+  top: 959px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  
+  color: #4B626C;
+  }
+  
+  
+  .carrinhp{
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  left: 1324px;
+  top: 1195px;
+  }
+  
+  .circleCarrinho{
+  box-sizing: border-box;
+  
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  left: 1324px;
+  top: 1195px;
+  
+  background: #4B626C;
+  border: 2px solid #FFFFFF;
+  border-radius: 100%;
+  }
+  
+  .shopping-cart{
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  left: 1341px;
+  top: 1212px;
+  }
+  
+  .goup{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 8.55%;
+  bottom: 8.55%;
+  }
+  
+  
+ .goup2{
+  
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 8.55%;
+  bottom: 8.55%;
+ }
+  
+  
+  .imgcarro{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 8.55%;
+  bottom: 36%;
+  
+  background-image: url(../imagens/carrinho.png);
+  background-size: cover;
+  }
+  
+  /* Vector 
+  
+  position: absolute;
+  left: 6.64%;
+  right: 23.89%;
+  top: 67.36%;
+  bottom: 8.55%;
+  
+  background: #FFFFFF;*/

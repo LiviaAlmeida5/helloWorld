@@ -1,4 +1,5 @@
-import "../index.css";
+import React from "react";
+import "../estilização/recup.css";
 
 function Recuperar() {
     return (
@@ -8,14 +9,12 @@ function Recuperar() {
                     <h1 className='recuperar'>Recuperar</h1>
                     <input className='email3' type="text" />
                 </div>
-                <div className='seta3'>
-                    <button > </button>
-                </div>
+                <a href="/principal" className='seta3'> </a>
             </div>
             <div className='imagem2'>
             </div>
-            <div className="criarConta2">Criar conta</div>
-            <div className="fazerLogin">Fazer Login</div>
+            <a href="/registrar" className="criarConta2">Criar conta</a>
+            <a href="/login" className="fazerLogin">Fazer Login</a>
         </div>
     );
 }

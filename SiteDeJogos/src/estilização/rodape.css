@@ -1,0 +1,252 @@
+
+/*footer*/
+
+.retFooter{
+    position: absolute;
+  width: 1440px;
+  height: 393px;
+  left: 0px;
+  top: 1300px;
+  
+  background: #97A4A2;
+  }
+  
+  .imgFooter{
+   position: absolute;
+  width: 164px;
+  height: 164px;
+  left: 21px;
+  top: 1390px;
+  
+  background: url(../imagens/imagem2.png);
+  border-radius: 5px;
+  background-size: cover;
+  }
+  
+  
+  .tituloFooter{
+    position: absolute;
+  width: 235px;
+  height: 44px;
+  left: 232px;
+  top: 1411px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  
+  color: #FBF8F3;
+  }
+  
+  .seuprox{
+    position: absolute;
+  width: 329px;
+  height: 77px;
+  left: 185px;
+  top: 1455px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  
+  color: #FFFFFF;
+  }
+  
+  .explore{
+    position: absolute;
+  width: 151px;
+  height: 44px;
+  left: 644px;
+  top: 1374px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  text-align: center;
+  
+  color: #FFFFFF;
+  }
+  
+  .contato{
+  position: absolute;
+  width: 147px;
+  height: 44px;
+  left: 1022px;
+  top: 1376px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  text-align: center;
+  
+  color: #FFFFFF;
+  }
+  
+  .inicio{
+  position: absolute;
+  width: 87px;
+  height: 39px;
+  left: 676px;
+  top: 1430px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  text-align: center;
+  
+  color: #FFFFFF;
+  }
+  
+  .emailgame{
+  position: absolute;
+  width: 355px;
+  height: 29px;
+  left: 1054px;
+  top: 1428px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  }
+  
+  .pops{
+  position: absolute;
+  width: 161px;
+  height: 39px;
+  left: 639px;
+  top: 1480px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  text-align: center;
+  
+  color: #FFFFFF;
+  }
+  
+  .cont{
+  position: absolute;
+  width: 96px;
+  height: 39px;
+  left: 672px;
+  top: 1530px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  text-align: center;
+  
+  color: #FFFFFF;
+  }
+  
+  .simbemail{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 1022px;
+  top: 1433px;
+  
+  background: url(.png);
+  }
+  
+  .localidade{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 1022px;
+  top: 1527px;
+  
+  background: url(.png);
+  }
+  
+  .phone{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 1022px;
+  top: 1480px;
+  
+  background: url(.png);
+  }
+  
+  
+  .numphone{
+  position: absolute;
+  width: 204px;
+  height: 24px;
+  left: 1054px;
+  top: 1476px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  }
+  
+  .local{
+  position: absolute;
+  width: 355px;
+  height: 24px;
+  left: 1054px;
+  top: 1526px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  }
+  
+  .msngfooter{
+  position: absolute;
+  width: 462px;
+  height: 41px;
+  left: 489px;
+  top: 1630px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  
+  color: #4B626C;
+  }

@@ -243,7 +243,7 @@ color: #97A4A2;
 
 .seta{
 
-background: url(..imagens/seta.png);
+background: url(./imagens/seta.png);
 box-sizing: border-box;
 
 position: absolute;
@@ -284,6 +284,17 @@ color: #97A4A2;
 }
 
 /*login*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 .segundaTela{
@@ -447,6 +458,7 @@ line-height: 29px;
 color: #97A4A2;
 }
 
+
 .login{
 
 position: absolute;
@@ -464,6 +476,14 @@ line-height: 78px;
 
 color: #4B626C;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -585,6 +605,20 @@ color: #4B626C;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Nav bar */
 
 .BarraNavegação{
@@ -614,7 +648,8 @@ height: 100px;
 left: 40px;
 top: 1px;
 
-background: url(.imagens/imagem2.png);
+background: url(imagens/imagem2.png);
+background-size: cover;
 }
 
 .lançamentos{
@@ -636,7 +671,6 @@ color: #4B626C;
 
 
 .populares{
-
 position: absolute;
 width: 159px;
 height: 39px;
@@ -655,7 +689,6 @@ color: #4B626C;
 
 
 .generos{
-
 position: absolute;
 width: 132px;
 height: 39px;
@@ -673,7 +706,6 @@ color: #4B626C;
 }
 
 .promoçoes{
-
 position: absolute;
 width: 180px;
 height: 39px;
@@ -691,10 +723,9 @@ color: #4B626C;
 }
 
 
-.Conta{
-
+.contas{
 position: absolute;
-width: 95px;
+width: 50px;
 height: 39px;
 left: 1108px;
 top: 34px;
@@ -718,7 +749,6 @@ top: 34px;
 }
 
 .BarraPesquisa{
-position: absolute;
 width: 165px;
 height: 40px;
 left: 1234px;
@@ -730,22 +760,22 @@ border-radius: 15px;
 }
 
 .traço1{
-position: absolute;
+  position: absolute;
 width: 40px;
 height: 0px;
 left: 420px;
-top: 73px;
+top: 60px;
 
 border: 1px solid #4B626C;
 transform: rotate(-90deg);
 }
 
-.traço1{
+.traço2{
 position: absolute;
 width: 40px;
 height: 0px;
 left: 641px;
-top: 73px;
+top: 60px;
 
 border: 1px solid #4B626C;
 transform: rotate(-90deg);
@@ -756,7 +786,7 @@ position: absolute;
 width: 40px;
 height: 0px;
 left: 835px;
-top: 73px;
+top: 60px;
 
 border: 1px solid #4B626C;
 transform: rotate(-90deg);
@@ -767,27 +797,45 @@ position: absolute;
 width: 40px;
 height: 0px;
 left: 1077px;
-top: 73px;
+top: 60px;
 
 border: 1px solid #4B626C;
 transform: rotate(-90deg);
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*footer*/
 
 .retFooter{
-position: absolute;
+  position: absolute;
 width: 1440px;
 height: 393px;
 left: 0px;
-top: 1291px;
+top: 1300px;
 
 background: #97A4A2;
 }
 
 .imgFooter{
-position: absolute;
+ position: absolute;
 width: 164px;
 height: 164px;
 left: 21px;
@@ -800,7 +848,7 @@ background-size: cover;
 
 
 .tituloFooter{
-position: absolute;
+  position: absolute;
 width: 235px;
 height: 44px;
 left: 232px;
@@ -817,7 +865,7 @@ color: #FBF8F3;
 }
 
 .seuprox{
-position: absolute;
+  position: absolute;
 width: 329px;
 height: 77px;
 left: 185px;
@@ -834,7 +882,7 @@ color: #FFFFFF;
 }
 
 .explore{
-position: absolute;
+  position: absolute;
 width: 151px;
 height: 44px;
 left: 644px;
@@ -923,7 +971,7 @@ text-align: center;
 color: #FFFFFF;
 }
 
-.conta{
+.cont{
 position: absolute;
 width: 96px;
 height: 39px;
@@ -1025,6 +1073,1042 @@ align-items: center;
 
 color: #4B626C;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*tela populares*/
+.terimagem{
+
+  position: absolute;
+  width: 479px;
+  height: 270.84px;
+  left: 134px;
+  top: 913px;
+  
+  background: url(./imagens/ret9.jpg);
+  background-size: cover;
+  }
+
+
+.segimagem{
+position: absolute;
+width: 479px;
+height: 283.15px;
+left: 852px;
+top: 567px;
+
+background: url(./imagens/Ret10.jpg);
+background-size: cover;
+}
+
+.pop{
+
+position: absolute;
+width: 190px;
+height: 44px;
+left: 109px;
+top: 132px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #4B626C;
+}
+
+
+.priimagem{
+position: absolute;
+width: 479px;
+height: 282px;
+left: 134px;
+top: 223px;
+
+background: url(./imagens/Ret11.jpg);
+background-size: cover;
+}
+
+.circle1{
+position: absolute;
+width: 50px;
+height: 50px;
+left: 109.01px;
+top: 205px;
+
+background: #4B626C;
+transform: rotate(0.01deg);
+border-radius: 100%;
+}
+
+.um{
+position: absolute;
+width: 50px;
+height: 50px;
+left: 109.01px;
+top: 205px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+justify-content: center;
+text-align: center;
+
+color: #FBF6F0;
+
+transform: rotate(0.01deg);
+}
+
+.god{
+position: absolute;
+width: 186px;
+height: 39px;
+left: 907px;
+top: 246px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #4B626C;
+}
+
+
+.pgod{
+position: absolute;
+width: 663px;
+height: 216px;
+left: 668px;
+top: 285px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: justify;
+
+color: #4B626C;
+}
+
+.circle2{
+position: absolute;
+width: 50px;
+height: 50px;
+left: 827.01px;
+top: 550px;
+
+background: #4B626C;
+transform: rotate(0.01deg);
+border-radius: 100%;
+}
+
+.dois{
+position: absolute;
+width: 50px;
+height: 50px;
+left: 827.01px;
+top: 550px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+justify-content: center;
+text-align: center;
+
+color: #FBF6F0;
+
+transform: rotate(0.01deg);
+}
+
+.circle3{
+position: absolute;
+width: 50px;
+height: 50px;
+left: 109.01px;
+top: 897px;
+
+background: #4B626C;
+transform: rotate(0.01deg);
+border-radius: 100%;
+}
+
+.tres{
+position: absolute;
+width: 50px;
+height: 50px;
+left: 109.01px;
+top: 897px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+justify-content: center;
+text-align: center;
+
+
+color: #FBF6F0;
+
+transform: rotate(0.01deg);
+
+
+}
+
+.horizon{
+position: absolute;
+width: 318px;
+height: 39px;
+left: 299px;
+top: 593px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #4B626C;
+}
+
+
+.phorizon{
+position: absolute;
+width: 648px;
+height: 168px;
+left: 134px;
+top: 632px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: justify;
+
+color: #4B626C;
+}
+
+
+.days{
+
+position: absolute;
+width: 177px;
+height: 39px;
+left: 911px;
+top: 920px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #4B626C;
+}
+
+
+.pdays{
+position: absolute;
+width: 663px;
+height: 216px;
+left: 668px;
+top: 959px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: justify;
+
+color: #4B626C;
+}
+
+
+.carrinhp{
+position: absolute;
+width: 75px;
+height: 75px;
+left: 1324px;
+top: 1195px;
+}
+
+.circleCarrinho{
+box-sizing: border-box;
+
+position: absolute;
+width: 75px;
+height: 75px;
+left: 1324px;
+top: 1195px;
+
+background: #4B626C;
+border: 2px solid #FFFFFF;
+border-radius: 100%;
+}
+
+.shopping-cart{
+position: absolute;
+width: 41px;
+height: 41px;
+left: 1341px;
+top: 1212px;
+}
+
+.goup{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 8.55%;
+bottom: 8.55%;
+}
+
+
+/* Group 
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 8.55%;
+bottom: 8.55%;*/
+
+
+
+.imgcarrinho{
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 8.55%;
+bottom: 36%;
+
+background-image: url(./imagens/carrinho.png);
+background-size: cover;
+}
+
+/* Vector 
+
+position: absolute;
+left: 6.64%;
+right: 23.89%;
+top: 67.36%;
+bottom: 8.55%;
+
+background: #FFFFFF;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*tela administrador*/
+
+.tela-adiministrador{
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;
+}
+
+/*.tentativas{
+position: absolute;
+width: 480px;
+height: 926px;
+left: 0px;
+top: 98px;
+}*/
+
+.rec1{
+position: absolute;
+width: 480px;
+height: 926px;
+left: 0px;
+top: 98px;
+
+background: #4B626C;
+border-radius: 0px;
+}
+
+.titlerec1{
+position: absolute;
+width: 249px;
+height: 39px;
+left: 116px;
+top: 171px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #FBF6F0;
+}
+
+
+.titulo-do-jogo{
+position: absolute;
+width: 390px;
+height: 50px;
+left: 45px;
+top: 256px;
+
+
+
+position: absolute;
+width: 390px;
+height: 50px;
+left: 435px;
+top: 256px;
+
+background: #EFEFEF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+/*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+
+
+/* Título do jogo */
+
+position: absolute;
+width: 163px;
+height: 29px;
+left: 159px;
+top: 267px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #97A4A2;
+}
+
+
+/* Caixa gênero 
+
+position: absolute;
+width: 390px;
+height: 50px;
+left: 45px;
+top: 352px;*/
+
+
+
+.genero{
+
+position: absolute;
+width: 390px;
+height: 50px;
+left: 435px;
+top: 352px;
+
+background: #EFEFEF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+/*transform: matrix(-1, 0, 0, 1, 0, 0);*
+
+
+/* Gênero */
+
+position: absolute;
+width: 88px;
+height: 29px;
+left: 196px;
+top: 363px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #97A4A2;
+}
+
+
+/* Caixa gênero 
+
+position: absolute;
+width: 200px;
+height: 50px;
+left: 140px;
+top: 662px;*/
+
+
+
+.inserir-imagem{
+
+position: absolute;
+width: 200px;
+height: 50px;
+left: 340px;
+top: 662px;
+
+background: #EFEFEF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+/*transform: matrix(-1, 0, 0, 1, 0, 0);*
+
+
+/* Inserir imagem */
+
+position: absolute;
+width: 183px;
+height: 29px;
+left: 149px;
+top: 673px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #97A4A2;
+}
+.descriçao{
+
+
+
+/* Caixa descrição */
+
+position: absolute;
+width: 390px;
+height: 154px;
+left: 45px;
+top: 462px;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 390px;
+height: 154px;
+left: 435px;
+top: 462px;
+
+background: #EFEFEF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Descrição */
+
+position: absolute;
+width: 117px;
+height: 29px;
+left: 182px;
+top: 525px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #97A4A2;
+}
+
+
+.cadastrar-se{
+position: absolute;  
+width: 270px;
+height: 45px;
+left: 105px;
+top: 758px;
+
+
+
+/* Rectangle 28 */
+
+position: absolute;
+width: 270px;
+height: 45px;
+left: 105px;
+top: 758px;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+
+/* Cadastrar */
+
+/*position: absolute;
+width: 145px;
+height: 37px;
+left: 168px;
+top: 762px;
+*/
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+color: #606060;
+}
+
+
+/* Group 14 */
+/*
+position: absolute;
+width: 480px;
+height: 926px;
+left: 960px;
+top: 98px;
+*/
+
+
+.rec3{
+
+position: absolute;
+width: 480px;
+height: 926px;
+left: 960px;
+top: 98px;
+
+background: #4B626C;
+border-radius: 0px;
+}
+
+/* Caixa título */
+/*
+position: absolute;
+width: 390px;
+height: 50px;
+left: 1005px;
+top: 256px;
+*/
+
+.titulo-do-jogo2{
+
+position: absolute;
+width: 390px;
+height: 50px;
+left: 1395px;
+top: 256px;
+
+background: #EFEFEF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+/*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+
+
+/* Título do jogo */
+
+position: absolute;
+width: 163px;
+height: 29px;
+left: 1119px;
+top: 267px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #97A4A2;
+}
+
+
+/* Caixa gênero */
+/*
+position: absolute;
+width: 390px;
+height: 50px;
+left: 1005px;
+top: 352px;
+*/
+
+
+.genero2{
+
+position: absolute;
+width: 390px;
+height: 50px;
+left: 1395px;
+top: 352px;
+
+background: #EFEFEF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+/*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+
+
+/* Gênero */
+
+position: absolute;
+width: 88px;
+height: 29px;
+left: 1156px;
+top: 363px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #97A4A2;
+}
+
+
+/* Caixa gênero */
+/*
+position: absolute;
+width: 200px;
+height: 50px;
+left: 1100px;
+top: 662px;
+*/
+
+
+.inserir-imagem2{
+
+position: absolute;
+width: 200px;
+height: 50px;
+left: 1300px;
+top: 662px;
+
+background: #EFEFEF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+/*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+
+
+/* Inserir imagem */
+
+position: absolute;
+width: 183px;
+height: 29px;
+left: 1109px;
+top: 673px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #97A4A2;
+}
+
+.descriçao2{
+/* Caixa descrição */
+
+position: absolute;
+width: 390px;
+height: 154px;
+left: 1005px;
+top: 462px;
+
+
+
+
+
+position: absolute;
+width: 390px;
+height: 154px;
+left: 1395px;
+top: 462px;
+
+background: #EFEFEF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+/*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+
+
+/* Descrição */
+
+position: absolute;
+width: 117px;
+height: 29px;
+left: 1142px;
+top: 525px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #97A4A2;
+}
+
+
+.modificar{
+
+position: absolute;
+width: 270px;
+height: 45px;
+left: 1065px;
+top: 758px;
+
+
+
+/* Rectangle 28 */
+
+position: absolute;
+width: 270px;
+height: 45px;
+left: 1065px;
+top: 758px;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+
+/* Modificar */
+
+/*position: absolute;
+width: 141px;
+height: 37px;
+left: 1128px;
+top: 762px;
+*/
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+color: #606060;
+}
+
+
+.titlerec3{
+
+position: absolute;
+width: 189px;
+height: 39px;
+left: 1104px;
+top: 171px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #FBF6F0;
+}
+
+
+/* Group 15 */
+/*
+position: absolute;
+width: 480px;
+height: 926px;
+left: 480px;
+top: 99px;
+*/
+
+
+.rec2{
+
+position: absolute;
+width: 480px;
+height: 926px;
+left: 480px;
+top: 99px;
+
+background: #FFFFFF;
+border-radius: 0px;
+}
+.titlerec2{
+
+position: absolute;
+width: 238px;
+height: 39px;
+left: 601px;
+top: 171px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #4B626C;
+}
+
+
+.caixinha{
+position: absolute;
+width: 390px;
+height: 50px;
+left: 525px;
+top: 257px;
+}
+
+.id-jogo{
+position: absolute;
+width: 390px;
+height: 50px;
+left: 915px;
+top: 257px;
+
+background: #4B626C;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+/*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+
+
+/* Título do jogo ou ID */
+
+position: absolute;
+width: 233px;
+height: 29px;
+left: 604px;
+top: 268px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+
+.remover-se{
+position: absolute;
+width: 270px;
+height: 45px;
+left: 585px;
+top: 363px;
+
+
+
+/* Rectangle 28 */
+
+position: absolute;
+width: 270px;
+height: 45px;
+left: 585px;
+top: 363px;
+
+background: #4B626C;
+border-radius: 10px;
+
+
+/* Remover */
+
+/*position: absolute;
+width: 136px;
+height: 37px;
+left: 648px;
+top: 367px;
+*/
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+color: #F3F3F3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

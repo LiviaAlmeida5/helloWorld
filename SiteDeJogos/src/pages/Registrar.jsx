@@ -1,4 +1,5 @@
-import "../index.css";
+import React from "react";
+import "../estilização/reg.css";
 
 function Registrar(){
     return (
@@ -12,12 +13,12 @@ function Registrar(){
       <input className='senha' type="text" />
       <input className="confrimarSenha" type="text" />
       </div>
-      <button className='seta'>
-      </button>
+      <a href="/principal" className='seta'>
+      </a>
     </div>
     <div className='imagem'>
     </div>
-    <div className="button-login" >Fazer Login</div>
+    <a href="/login" className="button-login" >Fazer Login</a>
     </div>
     );
 }

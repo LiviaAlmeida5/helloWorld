@@ -1,4 +1,5 @@
-import "../index.css";
+import React from "react";
+import "../estilização/log.css";
 
 function Login(){
     return(
@@ -9,13 +10,12 @@ function Login(){
       <input className='email2' type="text" />
       <input className='senha2' type="text" />
       </div>
-      <button className='seta2'>
-      </button>
+      <a href="/principal" className='seta2'></a>
     </div>
     <div className='imagem2'>
     </div>
-        <div className="criarConta">Criar conta</div>
-        <div className="esqueceuSenha">Esqueceu a senha?</div>
+        <a href="/registrar" className="criarConta">Criar conta</a>
+        <a href="/recuperar" className="esqueceuSenha">Esqueceu a senha?</a>
     </div>
 
     );

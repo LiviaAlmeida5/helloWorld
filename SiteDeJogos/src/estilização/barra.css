@@ -1,0 +1,195 @@
+/* Nav bar */
+
+.BarraNavegação {
+  position: absolute;
+  width: 1440px;
+  height: 101.89px;
+  left: 0px;
+  top: 1px;
+}
+
+
+.retangulo1 {
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  top: 2px;
+
+  background: #FBF6F0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.imgNavbar {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 40px;
+  top: 1px;
+
+  background: url(../imagens/imagem2.png);
+  background-size: cover;
+}
+
+.lançamentos {
+  position: absolute;
+  width: 218px;
+  height: 39px;
+  left: 171px;
+  top: 32px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #4B626C;
+}
+
+
+.populares {
+  position: absolute;
+  width: 159px;
+  height: 39px;
+  left: 451px;
+  top: 34px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #4B626C;
+}
+
+
+.generos {
+  position: absolute;
+  width: 132px;
+  height: 39px;
+  left: 672px;
+  top: 34px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #4B626C;
+}
+
+.promoçoes {
+  position: absolute;
+  width: 180px;
+  height: 39px;
+  left: 866px;
+  top: 34px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #4B626C;
+}
+
+
+.contas {
+  position: absolute;
+  width: 50px;
+  height: 39px;
+  left: 1108px;
+  top: 34px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #4B626C;
+}
+
+.search {
+  position: absolute;
+  width: 165px;
+  height: 68.89px;
+  left: 1234px;
+  top: 34px;
+}
+
+.BarraPesquisa {
+  width: 165px;
+  height: 40px;
+  left: 1234px;
+  top: 34px;
+
+  background: rgba(151, 164, 162, 0.45);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.traço1 {
+  position: absolute;
+  width: 40px;
+  height: 0px;
+  left: 420px;
+  top: 60px;
+
+  border: 1px solid #4B626C;
+  transform: rotate(-90deg);
+}
+
+.traço2 {
+  position: absolute;
+  width: 40px;
+  height: 0px;
+  left: 641px;
+  top: 60px;
+
+  border: 1px solid #4B626C;
+  transform: rotate(-90deg);
+}
+
+.traço3 {
+  position: absolute;
+  width: 40px;
+  height: 0px;
+  left: 835px;
+  top: 60px;
+
+  border: 1px solid #4B626C;
+  transform: rotate(-90deg);
+}
+
+.traço4 {
+  position: absolute;
+  width: 40px;
+  height: 0px;
+  left: 1077px;
+  top: 60px;
+
+  border: 1px solid #4B626C;
+  transform: rotate(-90deg);
+}
+
+/* Vector */
+.lupazinha {
+  position: absolute;
+  left: 95.28%;
+  right: 3.33%;
+  top: 10.61%;
+  bottom: 96.2%;
+
+  background: #000000;
+  border-radius: 15px;
+}

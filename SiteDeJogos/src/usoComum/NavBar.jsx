@@ -1,22 +1,24 @@
-import "../index.css";
+import React from "react";
+import "../estilização/barra.css";
 
 function NavBar() {
     return (
         <header className="BarraNavegação" >
             <div className="retangulo1">
                 <div className="imgNavbar"></div>
-                <link className="lançamentos" href="#">Lançamentos</link>
+                <a className="lançamentos" href="/principal">Lançamentos</a>
                 <div className="traço1" ></div>
-                <link className="populares" href="#">Populares</link>
+                <a className="populares" href="/populares">Populares</a>
                 <div className="traço2" ></div>
-                <link className="generos" href="#">Gêneros</link>
+                <a className="generos" href="#">Gêneros</a>
                 <div className="traço3" ></div>
-                <link className="promoçoes" href="#">Promoçãoes</link>
+                <a className="promoçoes" href="#">Promoções</a>
                 <div className="traço4" ></div>
-                <link className="conta" href="#">Contas</link>
+                <a className="contas" href="#">Contas</a>
                 <div className="search" >
-                    <div className="BarraPesquisa" > </div>
+                    <div className="BarraPesquisa" ></div>
                 </div>
+                <div className="lupazinha"></div>
             </div>
         </header>
     );
