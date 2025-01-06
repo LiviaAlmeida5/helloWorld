@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useState } from 'react'
-import './App.css'
 import Registrar from "./pages/Registrar";
 import Login from './pages/Login';
 import Recuperar from './pages/Recuperar';
