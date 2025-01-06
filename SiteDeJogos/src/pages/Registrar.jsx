@@ -1,26 +1,30 @@
 import React from "react";
 import "../estilização/reg.css";
+import imagem1 from "../imagens/imagem1.png";
+import seta from "../imagens/seta.png";
 
-function Registrar(){
-    return (
-<div className='primeiraTela'>
-    <div className='reg'>
-      <div className="coluna">
-      <h1 className='registrar'>Registrar</h1>
-      <input className='nomeUsuario' type="text" />
-      <input className='email' type="text" />
-      <input className='cpf' type="text" />
-      <input className='senha' type="text" />
-      <input className="confrimarSenha" type="text" />
+function Registrar() {
+  return (
+    <div className='primeiraTelas'>
+      <div className='reg'>
+        <h1 className='registrar'>Registrar</h1>
+        <input className='caixa' type="text" placeholder="Nome de Usuário" />
+        <input className='caixa' type="text" placeholder="E-mail" />
+        <input className='caixa' type="text" placeholder="CPF" />
+        <input className='caixa' type="text" placeholder="Senha" />
+        <input className="caixa" type="text" placeholder="Confirmar Senha" />
+        <div className="setinha">
+          <a href="/principal" className='seta2'>
+            <img src={seta} alt="" />
+          </a>
+        </div>
+        <a href="/login" className="button-login" >Fazer Login</a>
       </div>
-      <a href="/principal" className='seta'>
-      </a>
+      <div className="container-imagem">
+        <img src={imagem1} alt="imagem-ilustrativa" />
+      </div>
     </div>
-    <div className='imagem'>
-    </div>
-    <a href="/login" className="button-login" >Fazer Login</a>
-    </div>
-    );
+  );
 }
 
 export default Registrar;

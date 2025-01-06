@@ -1,116 +1,140 @@
-
-/*Recuperar conta*/
-
-
-.seta3{
-    box-sizing: border-box;
-    
-    position: absolute;
-    width: 40px;
-    height: 0px;
-    left: 392px;
-    top: 379px;
-    
-    border: 4px solid #4B626C;
-    }
-    
-    
-    .criarConta2{
-    position: absolute;
-    width: 260px;
-    height: 76px;
-    left: 56px;
-    top: 850px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 35px;
-    /* or 146% */
-    
-    color: #97A4A2;
-    }
-    
-    .fazerLogin{
-      position: absolute;
-      width: 260px;
-      height: 76px;
-      left: 56px;
-      top: 904px;
-      
+    .primeiraTela{
+      width: 100vw;
+      height: 150vh;
+      display: flex;
+      flex-direction: row;
+     
+  }
+  
+  .reg{
+      width: 35%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-left: 5%;
+      background-color: #FBF8F4;       
+  }
+  
+  .recuperar{
+      display: flex;
       font-family: 'Montserrat';
       font-style: normal;
-      font-weight: 500;
-      font-size: 24px;
-      line-height: 35px;
-      /* or 146% */
+      font-weight: 400;
+      color: #4B626C;
+      font-size: 4rem;
+      justify-content: center;
+      margin: 10%;
       
+  }
+  
+  .container-imagem{
+      width: 65%;
+      height: 100%;
+  }
+  
+  .container-imagem img{
+      width: 100%;
+      height: 100%;
+  }
+  
+  .caixa{
+      width: 80%;
+      height: 5%;
+      background: #EFEFEF;
+      box-shadow: 5px 1rem 20rem rgba(0, 0, 0, 0.25);
+      border-radius: 0.75rem;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 100;
       color: #97A4A2;
-      }
-    
-    
-    .coluna3{
-    position: absolute;
-    width: 390px;
-    height: 261px;
-    left: 42px;
-    top: 64px;
+      margin-left: 10%;
+      margin-top: 10%;
+      font-size: 2rem;
+  }
+  
+  .setinha{
+    width:10%;
+    height: 5%;
+    margin-left: 85%;
+ }
+
+ .seta2{
+    width: 100%;
+    height: 100%;
+ }
+
+ .seta2 img{
+    width: 100%;
+    height: 100%;
+ }
+
+  
+  .criarConta,
+  .fazerLogin{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #97A4A2;
+  }
+  
+  @media (max-width:1500px) {
+    html {
+        font-size: 80%;
     }
-    
-    .email3{
-    position: absolute;
-    width: 390px;
-    height: 50px;
-    left: 42px;
-    top: 275px;
-    
-    
-    
-    /* Rectangle 3 */
-    
-    position: absolute;
-    width: 390px;
-    height: 50px;
-    left: 432px;
-    top: 275px;
-    
-    background: #EFEFEF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
-    
-    
-    /* E-mail */
-    
-    position: absolute;
-    width: 280px;
-    height: 29px;
-    left: 56px;
-    top: 285px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    
-    color: #97A4A2;
+    .segundaTela{
+        height: 110vh;
+
     }
-    
-    .recuperar{
-    position: absolute;
-    width: 333px;
-    height: 156px;
-    left: 71px;
-    top: 64px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 78px;
-    text-align: center;
-    
-    color: #4B626C;
+}
+@media (max-width:1100px) {
+    html {
+        font-size: 70%;
     }
+    .segundaTela{
+        height: 90vh;
+
+    }
+}
+@media (max-width:850px) {
+    html {
+        font-size: 60%;
+    }
+    .segundaTela{
+        height: 75vh;
+
+    }
+}
+
+ @media (max-width:768px) {
+     html {
+         font-size: 50%;
+     }
+     .segundaTela{
+        height: 60vh;
+     }
+ }
+
+
+  @media (max-width:400px){
+    .segundaTela{
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    } 
+    .reg{
+        width:100%;
+    }
+    .container-imagem{
+        width: 100%;
+    }
+    .container-imagem img{
+        width: 100%;
+        height: 100%;
+    }
+   
+ }
+
+ 

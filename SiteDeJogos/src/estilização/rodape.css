@@ -1,252 +1,99 @@
-
-/*footer*/
-
-.retFooter{
-    position: absolute;
-  width: 1440px;
-  height: 393px;
-  left: 0px;
-  top: 1300px;
-  
-  background: #97A4A2;
+  .telaFooter{
+    width: 100vw;
+    height: 47vh;
+    background: #97A4A2;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-size: 2.2rem;
   }
-  
-  .imgFooter{
-   position: absolute;
-  width: 164px;
-  height: 164px;
-  left: 21px;
-  top: 1390px;
-  
-  background: url(../imagens/imagem2.png);
-  border-radius: 5px;
-  background-size: cover;
-  }
-  
-  
+
   .tituloFooter{
-    position: absolute;
-  width: 235px;
-  height: 44px;
-  left: 232px;
-  top: 1411px;
-  
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 44px;
-  /* identical to box height */
-  
-  color: #FBF8F3;
+    color: white;
+    font-weight: 700;
   }
-  
-  .seuprox{
-    position: absolute;
-  width: 329px;
-  height: 77px;
-  left: 185px;
-  top: 1455px;
-  
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 32px;
-  line-height: 39px;
-  text-align: center;
-  
-  color: #FFFFFF;
+
+  .imgFooter{
+    height: 60%;
+    width: 14%;
+    margin-right: 0;
   }
-  
-  .explore{
-    position: absolute;
-  width: 151px;
-  height: 44px;
-  left: 644px;
-  top: 1374px;
-  
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 44px;
-  /* identical to box height */
-  text-align: center;
-  
-  color: #FFFFFF;
+
+  .imgFooter img{
+    height: 100%;
+    width: 100%;
   }
-  
-  .contato{
-  position: absolute;
-  width: 147px;
-  height: 44px;
-  left: 1022px;
-  top: 1376px;
-  
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 44px;
-  /* identical to box height */
-  text-align: center;
-  
-  color: #FFFFFF;
+
+  .encima{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 3%;
   }
-  
-  .inicio{
-  position: absolute;
-  width: 87px;
-  height: 39px;
-  left: 676px;
-  top: 1430px;
-  
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 39px;
-  /* identical to box height */
-  text-align: center;
-  
-  color: #FFFFFF;
+
+  .containerss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
-  
-  .emailgame{
-  position: absolute;
-  width: 355px;
-  height: 29px;
-  left: 1054px;
-  top: 1428px;
-  
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  
-  color: #FFFFFF;
-  }
-  
-  .pops{
-  position: absolute;
-  width: 161px;
-  height: 39px;
-  left: 639px;
-  top: 1480px;
-  
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 39px;
-  /* identical to box height */
-  text-align: center;
-  
-  color: #FFFFFF;
-  }
-  
-  .cont{
-  position: absolute;
-  width: 96px;
-  height: 39px;
-  left: 672px;
-  top: 1530px;
-  
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 39px;
-  /* identical to box height */
-  text-align: center;
-  
-  color: #FFFFFF;
-  }
-  
-  .simbemail{
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  left: 1022px;
-  top: 1433px;
-  
-  background: url(.png);
-  }
-  
-  .localidade{
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  left: 1022px;
-  top: 1527px;
-  
-  background: url(.png);
-  }
-  
-  .phone{
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  left: 1022px;
-  top: 1480px;
-  
-  background: url(.png);
-  }
-  
-  
-  .numphone{
-  position: absolute;
-  width: 204px;
-  height: 24px;
-  left: 1054px;
-  top: 1476px;
-  
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  
-  color: #FFFFFF;
-  }
-  
-  .local{
-  position: absolute;
-  width: 355px;
-  height: 24px;
-  left: 1054px;
-  top: 1526px;
-  
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  
-  color: #FFFFFF;
-  }
-  
+
   .msngfooter{
-  position: absolute;
-  width: 462px;
-  height: 41px;
-  left: 489px;
-  top: 1630px;
-  
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  
-  color: #4B626C;
+    display: flex;
+    justify-content: center;
   }
+ 
+  #cont1{
+    margin-left: 2rem;
+  }
+
+  #cont3{
+    margin-left: 11rem;
+  }
+
+  #cont2{
+    margin-left: 11rem;
+  }
+
+  @media (max-width:1420px) {
+    html{
+      font-size: 70%;
+    }
+  }
+
+  @media (max-width:1000px) {
+    html{
+      font-size: 50%;
+    }
+  }
+
+  @media (max-width:768px) {
+    html{
+      font-size: 40%;
+    }
+    .telaFooter{
+      height:25vh;
+    }
+  }
+  @media (max-width:768px) {
+    html{
+      font-size: 120%;
+    }
+    #cont1,
+    #cont2{
+      display: none;
+    }
+    .imgFooter{
+      height: 70%;
+      width: 35%;
+      margin-right: 0;
+      justify-content: center;
+    }
+    #cont3{
+      margin-left: 2rem;
+    }
+    #cont3 h2{
+      display: none;
+    }
+  }
+ 

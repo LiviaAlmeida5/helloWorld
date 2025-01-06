@@ -1,622 +1,155 @@
-/*tela administrador*/
+.tela-administrador {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
 
-.tela-adiministrador{
-    position: relative;
-    width: 1440px;
-    height: 1024px;
-    
-    background: #FFFFFF;
-    }
-    
-    /*.tentativas{
-    position: absolute;
-    width: 480px;
-    height: 926px;
-    left: 0px;
-    top: 98px;
-    }*/
-    
-    .rec1{
-    position: absolute;
-    width: 480px;
-    height: 926px;
-    left: 0px;
-    top: 98px;
-    
+.rec {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#rec2 {
+    font-size: 2rem;
     background: #4B626C;
-    border-radius: 0px;
+}
+
+#rec1 {
+    font-size: 2rem;
+    background: #FFFFFF;
+}
+
+.titlerec {
+    display: flex;
+    justify-content: center;
+    color: #4B626C;
+}
+
+.titlerec2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.inserir{
+    width: 65%;
+    height: 7%;
+    margin-left: 20%;
+    border-radius:1rem;
+    font-size: 1.4rem;
+}
+
+.descriçao{
+    width: 65%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    border-radius:1rem;
+    font-size: 1.4rem;
+}
+
+.inserir-imagem{
+    width: 45%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    border-radius:1rem;
+    font-size: 1.4rem;
+}
+
+.cadastrar-se{
+    width: 65%;
+    height: 7%;
+    margin-left: 20%;
+    border-radius:1rem;
+    font-size: 1.4rem;
+    margin-bottom: 5%;
+    background: #FBF6F0;
+    color: #4B626C;
+}
+.inserir5{
+    width: 65%;
+    height: 7%;
+    margin-left: 20%;
+    background-color: #4B626C;
+    color: white;
+    border-radius:1rem;
+    font-size: 1.4rem;
+    margin-bottom: 7%;
+    display: flex;
+}
+
+.cadastrar-se2{
+    width: 65%;
+    height: 7%;
+    margin-left: 20%;
+    background-color: #4B626C;
+    color: #FFFFFF;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    margin-bottom: 85%;
+}
+/*
+@media (max-width:1500px) {
+    html {
+        font-size: 80%;
     }
-    
-    .titlerec1{
-    position: absolute;
-    width: 249px;
-    height: 39px;
-    left: 116px;
-    top: 171px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
-    
-    color: #FBF6F0;
+    .tela-administrador{
+        height: 80vh;
     }
-    
-    
-    .titulo-do-jogo{
-    position: absolute;
-    width: 390px;
-    height: 50px;
-    left: 45px;
-    top: 256px;
-    
-    
-    
-    position: absolute;
-    width: 390px;
-    height: 50px;
-    left: 435px;
-    top: 256px;
-    
-    background: #EFEFEF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
-    
-    
-    /* Título do jogo */
-    
-    position: absolute;
-    width: 163px;
-    height: 29px;
-    left: 159px;
-    top: 267px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    
-    color: #97A4A2;
+}
+@media (max-width:1000px) {
+    html {
+        font-size: 70%;
     }
-    
-    
-    /* Caixa gênero 
-    
-    position: absolute;
-    width: 390px;
-    height: 50px;
-    left: 45px;
-    top: 352px;*/
-    
-    
-    
-    .genero{
-    
-    position: absolute;
-    width: 390px;
-    height: 50px;
-    left: 435px;
-    top: 352px;
-    
-    background: #EFEFEF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    /*transform: matrix(-1, 0, 0, 1, 0, 0);*
-    
-    
-    /* Gênero */
-    
-    position: absolute;
-    width: 88px;
-    height: 29px;
-    left: 196px;
-    top: 363px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    
-    color: #97A4A2;
+    .tela-administrador{
+        height: 60vh;
     }
-    
-    
-    /* Caixa gênero 
-    
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 140px;
-    top: 662px;*/
-    
-    
-    
-    .inserir-imagem{
-    
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 340px;
-    top: 662px;
-    
-    background: #EFEFEF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    /*transform: matrix(-1, 0, 0, 1, 0, 0);*
-    
-    
-    /* Inserir imagem */
-    
-    position: absolute;
-    width: 183px;
-    height: 29px;
-    left: 149px;
-    top: 673px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    
-    color: #97A4A2;
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 50%;
+    }
+    .tela-administrador{
+        height: 45vh;
+    }
+}*/
+
+@media (max-width:400px) {
+    html {
+        font-size: 50%;
+    }
+    .tela-administrador{
+        flex-direction: column;
+        height: 140vh;
+    }
+    .rec{
+        width: 100%;
+        height: 40%;
+    }
+    .rec:nth-child(2){
+        height: 20%;
+    }
+    .inserir,
+    .descriçao,
+    .cadastrar-se,
+    .cadastrar-se2,
+    .inserir5{
+        width: 90%;
+        margin-left: 5%;
+        height: 8%;
     }
     .descriçao{
-    
-    
-    
-    /* Caixa descrição */
-    
-    position: absolute;
-    width: 390px;
-    height: 154px;
-    left: 45px;
-    top: 462px;
-    
-    
-    
-    /* Rectangle 3 */
-    
-    position: absolute;
-    width: 390px;
-    height: 154px;
-    left: 435px;
-    top: 462px;
-    
-    background: #EFEFEF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    
-    
-    /* Descrição */
-    
-    position: absolute;
-    width: 117px;
-    height: 29px;
-    left: 182px;
-    top: 525px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    
-    color: #97A4A2;
+        height: 18%;
     }
-    
-    
-    .cadastrar-se{
-    position: absolute;  
-    width: 270px;
-    height: 45px;
-    left: 105px;
-    top: 758px;
-    
-    
-    
-    /* Rectangle 28 */
-    
-    position: absolute;
-    width: 270px;
-    height: 45px;
-    left: 105px;
-    top: 758px;
-    
-    background: #FFFFFF;
-    border-radius: 10px;
-    
-    
-    /* Cadastrar */
-    
-    /*position: absolute;
-    width: 145px;
-    height: 37px;
-    left: 168px;
-    top: 762px;
-    */
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 37px;
-    /* identical to box height */
-    
-    color: #606060;
+    .cadastrar-se2,
+    .inserir5{
+        height: 40%;
     }
-    
-    
-    /* Group 14 */
-    /*
-    position: absolute;
-    width: 480px;
-    height: 926px;
-    left: 960px;
-    top: 98px;
-    */
-    
-    
-    .rec3{
-    
-    position: absolute;
-    width: 480px;
-    height: 926px;
-    left: 960px;
-    top: 98px;
-    
-    background: #4B626C;
-    border-radius: 0px;
-    }
-    
-    /* Caixa título */
-    /*
-    position: absolute;
-    width: 390px;
-    height: 50px;
-    left: 1005px;
-    top: 256px;
-    */
-    
-    .titulo-do-jogo2{
-    
-    position: absolute;
-    width: 390px;
-    height: 50px;
-    left: 1395px;
-    top: 256px;
-    
-    background: #EFEFEF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
-    
-    
-    /* Título do jogo */
-    
-    position: absolute;
-    width: 163px;
-    height: 29px;
-    left: 1119px;
-    top: 267px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    
-    color: #97A4A2;
-    }
-    
-    
-    /* Caixa gênero */
-    /*
-    position: absolute;
-    width: 390px;
-    height: 50px;
-    left: 1005px;
-    top: 352px;
-    */
-    
-    
-    .genero2{
-    
-    position: absolute;
-    width: 390px;
-    height: 50px;
-    left: 1395px;
-    top: 352px;
-    
-    background: #EFEFEF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
-    
-    
-    /* Gênero */
-    
-    position: absolute;
-    width: 88px;
-    height: 29px;
-    left: 1156px;
-    top: 363px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    
-    color: #97A4A2;
-    }
-    
-    
-    /* Caixa gênero */
-    /*
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 1100px;
-    top: 662px;
-    */
-    
-    
-    .inserir-imagem2{
-    
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 1300px;
-    top: 662px;
-    
-    background: #EFEFEF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
-    
-    
-    /* Inserir imagem */
-    
-    position: absolute;
-    width: 183px;
-    height: 29px;
-    left: 1109px;
-    top: 673px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    
-    color: #97A4A2;
-    }
-    
-    .descriçao2{
-    /* Caixa descrição */
-    
-    position: absolute;
-    width: 390px;
-    height: 154px;
-    left: 1005px;
-    top: 462px;
-    
-    
-    
-    
-    
-    position: absolute;
-    width: 390px;
-    height: 154px;
-    left: 1395px;
-    top: 462px;
-    
-    background: #EFEFEF;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
-    
-    
-    /* Descrição */
-    
-    position: absolute;
-    width: 117px;
-    height: 29px;
-    left: 1142px;
-    top: 525px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    
-    color: #97A4A2;
-    }
-    
-    
-    .modificar{
-    
-    position: absolute;
-    width: 270px;
-    height: 45px;
-    left: 1065px;
-    top: 758px;
-    
-    
-    
-    /* Rectangle 28 */
-    
-    position: absolute;
-    width: 270px;
-    height: 45px;
-    left: 1065px;
-    top: 758px;
-    
-    background: #FFFFFF;
-    border-radius: 10px;
-    
-    
-    /* Modificar */
-    
-    /*position: absolute;
-    width: 141px;
-    height: 37px;
-    left: 1128px;
-    top: 762px;
-    */
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 37px;
-    /* identical to box height */
-    
-    color: #606060;
-    }
-    
-    
-    .titlerec3{
-    
-    position: absolute;
-    width: 189px;
-    height: 39px;
-    left: 1104px;
-    top: 171px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
-    
-    color: #FBF6F0;
-    }
-    
-    
-    /* Group 15 */
-    /*
-    position: absolute;
-    width: 480px;
-    height: 926px;
-    left: 480px;
-    top: 99px;
-    */
-    
-    
-    .rec2{
-    
-    position: absolute;
-    width: 480px;
-    height: 926px;
-    left: 480px;
-    top: 99px;
-    
-    background: #FFFFFF;
-    border-radius: 0px;
-    }
-    .titlerec2{
-    
-    position: absolute;
-    width: 238px;
-    height: 39px;
-    left: 601px;
-    top: 171px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
-    
-    color: #4B626C;
-    }
-    
-    
-    .caixinha{
-    position: absolute;
-    width: 390px;
-    height: 50px;
-    left: 525px;
-    top: 257px;
-    }
-    
-    .id-jogo{
-    position: absolute;
-    width: 390px;
-    height: 50px;
-    left: 915px;
-    top: 257px;
-    
-    background: #4B626C;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
-    
-    
-    /* Título do jogo ou ID */
-    
-    position: absolute;
-    width: 233px;
-    height: 29px;
-    left: 604px;
-    top: 268px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 29px;
-    
-    color: #FFFFFF;
-    }
-    
-    
-    .remover-se{
-    position: absolute;
-    width: 270px;
-    height: 45px;
-    left: 585px;
-    top: 363px;
-    
-    
-    
-    /* Rectangle 28 */
-    
-    position: absolute;
-    width: 270px;
-    height: 45px;
-    left: 585px;
-    top: 363px;
-    
-    background: #4B626C;
-    border-radius: 10px;
-    
-    
-    /* Remover */
-    
-    /*position: absolute;
-    width: 136px;
-    height: 37px;
-    left: 648px;
-    top: 367px;
-    */
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 37px;
-    /* identical to box height */
-    
-    color: #F3F3F3;
-    }
-    
-    
+}

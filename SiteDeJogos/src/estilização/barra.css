@@ -1,195 +1,90 @@
-/* Nav bar */
-
-.BarraNavegação {
-  position: absolute;
-  width: 1440px;
-  height: 101.89px;
-  left: 0px;
-  top: 1px;
-}
-
-
-.retangulo1 {
-  position: absolute;
-  width: 1440px;
-  height: 100px;
-  left: 0px;
-  top: 2px;
-
+.BarraNavegação{
+  width: 100vw;
+  height: 15vh;
   background: #FBF6F0;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.em-ordem{
+  width: 100%;
+  height: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 3rem;
 }
 
-.imgNavbar {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 40px;
-  top: 1px;
-
-  background: url(../imagens/imagem2.png);
-  background-size: cover;
+.imgNavbar{
+  height: 100%;
+  width: auto;
 }
 
-.lançamentos {
-  position: absolute;
-  width: 218px;
-  height: 39px;
-  left: 171px;
-  top: 32px;
+.imgNavbar img{
+  height: 100%;
+  width: 100%;
+}
 
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 32px;
-  line-height: 39px;
-  /* identical to box height */
+.traço{
+  width: 3rem;
+  height: 0.1rem;
 
+  border: 0.01rem solid #4B626C;
+  transform: rotate(-90deg);
+}
+
+.pbarra{
   color: #4B626C;
 }
 
-
-.populares {
-  position: absolute;
-  width: 159px;
-  height: 39px;
-  left: 451px;
-  top: 34px;
-
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 32px;
-  line-height: 39px;
-  /* identical to box height */
-
-  color: #4B626C;
-}
-
-
-.generos {
-  position: absolute;
-  width: 132px;
-  height: 39px;
-  left: 672px;
-  top: 34px;
-
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 32px;
-  line-height: 39px;
-  /* identical to box height */
-
-  color: #4B626C;
-}
-
-.promoçoes {
-  position: absolute;
-  width: 180px;
-  height: 39px;
-  left: 866px;
-  top: 34px;
-
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 32px;
-  line-height: 39px;
-  /* identical to box height */
-
-  color: #4B626C;
-}
-
-
-.contas {
-  position: absolute;
-  width: 50px;
-  height: 39px;
-  left: 1108px;
-  top: 34px;
-
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 32px;
-  line-height: 39px;
-  /* identical to box height */
-
-  color: #4B626C;
-}
-
-.search {
-  position: absolute;
-  width: 165px;
-  height: 68.89px;
-  left: 1234px;
-  top: 34px;
-}
-
-.BarraPesquisa {
-  width: 165px;
-  height: 40px;
-  left: 1234px;
-  top: 34px;
-
+.search{
+  height:35%;
+  width: 11%;
   background: rgba(151, 164, 162, 0.45);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
 }
 
-.traço1 {
-  position: absolute;
-  width: 40px;
-  height: 0px;
-  left: 420px;
-  top: 60px;
-
-  border: 1px solid #4B626C;
-  transform: rotate(-90deg);
+.linha-de-separaçao{
+  width: 100%;
+  height: 20%;
+  background-color: rgb(145, 145, 174);
 }
 
-.traço2 {
-  position: absolute;
-  width: 40px;
-  height: 0px;
-  left: 641px;
-  top: 60px;
-
-  border: 1px solid #4B626C;
-  transform: rotate(-90deg);
+@media (max-width:768px) {
+  html{
+    font-size: 45%;
+  }
+  .BarraNavegação{
+    height: 10vh;
+  }
 }
 
-.traço3 {
-  position: absolute;
-  width: 40px;
-  height: 0px;
-  left: 835px;
-  top: 60px;
-
-  border: 1px solid #4B626C;
-  transform: rotate(-90deg);
+@media (max-width:400px) {
+  .em-ordem{
+    justify-content: space-between;
+  }
+  .pbarra{
+    display: none;
+  }
+  .traço{
+    display: none;
+  }
+  .search{
+    display: none;
+  }
+  .tres-traços{
+    width: 18%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .um-traço{
+    width: 90%;
+    height: 10%;
+    background-color:#4B626C;
+  }
 }
 
-.traço4 {
-  position: absolute;
-  width: 40px;
-  height: 0px;
-  left: 1077px;
-  top: 60px;
 
-  border: 1px solid #4B626C;
-  transform: rotate(-90deg);
-}
 
-/* Vector */
-.lupazinha {
-  position: absolute;
-  left: 95.28%;
-  right: 3.33%;
-  top: 10.61%;
-  bottom: 96.2%;
 
-  background: #000000;
-  border-radius: 15px;
-}
