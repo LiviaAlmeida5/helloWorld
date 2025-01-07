@@ -33,6 +33,9 @@
 
 .pbarra{
   color: #4B626C;
+  text-decoration: none;
+  font-family: 'Montsserrat';
+  font-weight: 50;
 }
 
 .search{
@@ -49,6 +52,10 @@
   background-color: rgb(145, 145, 174);
 }
 
+.tres-traços{
+  display: none;
+}
+
 @media (max-width:768px) {
   html{
     font-size: 45%;
@@ -59,6 +66,7 @@
 }
 
 @media (max-width:400px) {
+ 
   .em-ordem{
     justify-content: space-between;
   }
@@ -78,11 +86,63 @@
     flex-direction: column;
     justify-content: space-around;
   }
+
   .um-traço{
     width: 90%;
     height: 10%;
     background-color:#4B626C;
   }
+  
+#rectangle43{
+  display: flex;
+  height: 47%;
+  width: 100%;
+  background-color: #4B626C;
+}
+
+.menut{
+  list-style-type: none;
+  padding:1rem 0rem 1rem 0rem;
+  text-align: center;
+  border-bottom: 0.3rem solid  white ;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.menut a{
+  font-size: 300%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  
+}
+
+.menut:nth-child(1){
+  padding-top: 5rem;
+}
+.menut:nth-child(5){
+  border-bottom: 0;
+}
+.pesquisar-menu{
+  margin-left: 20%;
+}
+#pesquisar-menu{
+  font-family: 'Montserrat';
+  width: 75%;
+  height: 3rem;
+  border-radius: 15px;
+  background-color: #97A4A2;
+}
+
+#botao-x{
+  height: 6%;
+  width: 10%;
+  position: absolute;
+  right: 3%;
+  top: 2%;
+  background-image: url(../imagens/x.png);
+  background-size: cover;
+}
 }
 
 

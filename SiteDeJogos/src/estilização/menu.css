@@ -1,223 +1,56 @@
-.menu-mobile{
-
-position: relative;
-width: 430px;
-height: 932px;
-
-background: #FFFFFF;
-}
-
-.rectangle42{
-
-position: absolute;
-width: 430px;
-height: 932px;
-left: 0px;
-top: 0px;
-
-background: rgba(102, 102, 102, 0.4);
-}
-
+/*
 .rectangle43{
-
-position: absolute;
-width: 430px;
-height: 391px;
-left: 0px;
-top: 0px;
-
-background: #4B626C;
+    display: none;
+    height: 47%;
+    width: 100%;
+    background-color: #4B626C;
 }
 
-.line14{
-
-position: absolute;
-width: 59px;
-height: 0px;
-left: 350px;
-top: 45px;
-
-border: 5px solid #FFFFFF;
-transform: rotate(45deg);
+.menut{
+    list-style-type: none;
+    padding:1rem 0rem 1rem 0rem;
+    text-align: center;
+    border-bottom: 0.3rem solid  white ;
+    width: 40%;
+    margin: 0 auto;
 }
 
-.line15{
-
-position: absolute;
-width: 59px;
-height: 0px;
-left: 350px;
-top: 45px;
-
-border: 5px solid #FFFFFF;
-transform: rotate(-45deg);
+.menut a{
+    font-size: 300%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
 }
 
-.line1{ 
-
-position: absolute;
-width: 163px;
-height: 0px;
-left: 133px;
-top: 121px;
-
-border: 1px solid #FFFFFF;
+.menut:nth-child(1){
+    padding-top: 5rem;
+}
+.menut:nth-child(5){
+    border-bottom: 0;
+}
+.pesquisar-menu{
+    margin-left: 20%;
+}
+#pesquisar-menu{
+    font-family: 'Montserrat';
+    width: 75%;
+    height: 3rem;
+    border-radius: 15px;
+    background-color: #97A4A2;
 }
 
-.line2{
-
-position: absolute;
-width: 163px;
-height: 0px;
-left: 133px;
-top: 175px;
-
-border: 1px solid #FFFFFF;
-}
-
-.line3{
-
-position: absolute;
-width: 163px;
-height: 0px;
-left: 133px;
-top: 228px;
-
-border: 1px solid #FFFFFF;
-}
-
-.line4{
-
-position: absolute;
-width: 163px;
-height: 0px;
-left: 133px;
-top: 281px;
-
-border: 1px solid #FFFFFF;
+#botao-x{
+    height: 6%;
+    width: 10%;
+    position: absolute;
+    right: 3%;
+    top: 2%;
+    background-image: url(../imagens/x.png);
+    background-size: cover;
 }
 
 
-.menucon{
-position: absolute;
-width: 163px;
-height: 29px;
-left: 133px;
-top: 278px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 24px;
-line-height: 29px;
-text-align: center;
-
-color: #FFFFFF;
-}
-
-
-.menupro{
-
-position: absolute;
-width: 163px;
-height: 29px;
-left: 133px;
-top: 225px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 24px;
-line-height: 29px;
-text-align: center;
-
-color: #FFFFFF;
-}
-
-
-.menugen{
-position: absolute;
-width: 163px;
-height: 29px;
-left: 133px;
-top: 172px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 24px;
-line-height: 29px;
-text-align: center;
-
-color: #FFFFFF;
-}
-
-
-
-.menupop{
-position: absolute;
-width: 163px;
-height: 29px;
-left: 133px;
-top: 119px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 24px;
-line-height: 29px;
-text-align: center;
-
-color: #FFFFFF;
-}
-
-
-
-.menulan{
-position: absolute;
-width: 163px;
-height: 29px;
-left: 133px;
-top: 65px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 24px;
-line-height: 29px;
-
-color: #FFFFFF;
-}
-
-
-.vetormenu{
-position: absolute;
-width: 271px;
-height: 40px;
-left: 79px;
-top: 331px;
-}
-
-.retangulo-menu{
-position: absolute;
-width: 271px;
-height: 40px;
-left: 79px;
-top: 331px;
-
-background: #97A4A2;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 15px;
-}
-
-
-.lupa{
-position: absolute;
-left: 74.19%;
-right: 21.16%;
-top: 36.59%;
-bottom: 61.27%;
-
-background: #000000;
-border-radius: 15px;
-}
+.botaozinho-preto:hover .rectangle43{
+ display: block;
+}*/

@@ -77,7 +77,10 @@ function Principal() {
                             <p>R$ 299,90</p>
                         </div>
                     </div>
-                </div>
+                    <div className="lado-direito">
+                        <div className="cart"></div>
+                    </div>
+                </div> 
             </div>
             <Footer />
         </div>

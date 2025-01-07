@@ -4,22 +4,22 @@ import "../estilização/menu.css";
 function Menu() {
     return (
         <div className="menu-mobile" >
-            <div className="rectangle43"></div>
-            <div className="rectangle42"></div>
-            <p className="menulan" >Lançamentos</p>
-            <p className="menupop" >Populares</p>
-            <p className="menugen" >Gênero</p>
-            <p className="menupro" >Promoções</p>
-            <p className="menucon" >Conta</p>
-            <div className="line1"></div>
-            <div className="line2"></div>
-            <div className="line3"></div>
-            <div className="line4"></div>
-            <div className="line14"></div>
-            <div className="line15"></div>
-            <div className="vetormenu"></div>
-            <div className="retangulo-menu"></div>
-            <div className="lupa"></div>
+            <div className="botaozinho-preto"></div>
+            <div className="rectangle43">
+                <div id="botao-x"> 
+                    <a href="/principal"></a>
+                </div>
+                <ul className="palavras">
+                    <li className="menut"><a href="/principal">Lançamentos</a></li>
+                    <li className="menut"><a href="/populares">Populares</a></li>
+                    <li className="menut"><a href="/administrador">Administrador</a></li>
+                    <li className="menut"><a href="#">Promoções</a></li>
+                    <li className="menut"><a href="#">Conta</a></li>
+                </ul>
+                <div className="pesquisar-menu">
+                    <input id="pesquisar-menu" type="text" />
+                </div>
+            </div>
         </div>
     );
 }

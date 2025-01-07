@@ -99,8 +99,8 @@
 }
 
 .cinco-imagens {
-    height: 76%;
-    width: 88%;
+    height: 75%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -109,33 +109,50 @@
 
 .rets1 {
     height: 100%;
-    width: 16%;
+    width: 15%;
     background-image: url(../imagens/Ret13.jpg);
     background-size: cover;
 }
 .rets2 {
     height: 100%;
-    width: 16%;
+    width: 15%;
     background-image: url(../imagens/Ret14.jpg);
     background-size: cover;
 }
 .rets3 {
     height: 100%;
-    width: 16%;
+    width: 15%;
     background-image: url(../imagens/Ret15.jpg);
     background-size: cover;
 }
 .rets4 {
     height: 100%;
-    width: 16%;
+    width: 15%;
     background-image: url(../imagens/Ret16.jpg);
     background-size: cover;
 }
 .rets5 {
     height: 100%;
-    width: 16%;
+    width: 15%;
     background-image: url(../imagens/Ret17.jpg);
     background-size: cover;
+}
+.lado-direito{
+    height: 100%;
+    width: 8%;
+}
+
+.cart{
+    margin-top: 120%;
+    height: 41.5%;
+    width: 100%;
+    border-radius: 100%;
+    background-image: url(../imagens/carrinho.png);
+    background-size: cover;
+}
+
+.cart:hover{
+    opacity: 0.5;
 }
 
 .prices{
@@ -149,7 +166,7 @@
 }
 
 .prices p{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: #4B626C;
     font-weight: 700;
 }
