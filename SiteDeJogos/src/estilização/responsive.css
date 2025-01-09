@@ -1,0 +1,57 @@
+.slider-container-responsive{
+    width: 80vw;
+    height: 30vh;
+    margin: 0 auto;
+}
+
+.rets1 {
+    height: 100%;
+    width: 15%;
+    background-image: url(../imagens/Ret13.jpg);
+    background-size: cover;
+}
+.rets2 {
+    height: 100%;
+    width: 15%;
+    background-image: url(../imagens/Ret14.jpg);
+    background-size: cover;
+    margin-left: 1rem;
+}
+.rets3 {
+    height: 100%;
+    width: 15%;
+    background-image: url(../imagens/Ret15.jpg);
+    background-size: cover;
+    margin-left: 1rem;
+    padding-right: 1rem;
+}
+.rets4 {
+    height: 100%;
+    width: 15%;
+    background-image: url(../imagens/Ret16.jpg);
+    background-size: cover;
+    margin-left: 1rem;
+}
+.rets5 {
+    height: 100%;
+    width: 15%;
+    background-image: url(../imagens/Ret17.jpg);
+    background-size: cover;
+    margin-left: 1rem;
+}
+
+.prices{
+    margin-left: 2%;
+    margin-top: 110%;
+    z-index: 2;
+    width: 40%;
+    height: 9%;
+    background-color:white;
+    border-radius: 8px;
+}
+
+.prices p{
+    font-size: 1.3rem;
+    color: #4B626C;
+    font-weight: 700;
+}

@@ -8,6 +8,7 @@
   width: 100vw;
   display: flex;
   flex-direction: row;
+  border-bottom: 2px solid #4B626C;
 }
 
 .palavras{
@@ -38,7 +39,7 @@
   text-decoration: none;
   font-family: 'Montsserrat';
   font-weight: 50;
-  border-right: 0.2rem solid black ;
+  border-right: 0.2rem solid black;
 }
 
 .menut a:nth-child(2){

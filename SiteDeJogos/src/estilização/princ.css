@@ -10,88 +10,6 @@
     background: #FBF6F0;
 }
 
-.tres-imagens {
-    height: 80%;
-    width: 80%;
-    padding-left: 12rem;
-    padding-top: 4.4rem;
-    display: flex;
-    flex-direction: row;
-}
-
-.duas-imagens {
-    height: 100%;
-    width: 35%;
-}
-
-.desconto-duas-imagens{
-    width: 60%;
-    height: 16%;
-    margin-left: 3%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.desc{
-    width: 40%;
-    height: 70%;
-    background-color: #4B626C;
-    margin-top: 70%;
-    border-radius: 10%;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.preços2{
-    width: 50%;
-    height: 70%;
-    background-color: white;
-    margin-top: 70%;
-    border-radius: 10%;
-    color: #4B626C;
-    font-size: 1.5rem;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.desconto-uma-imagem{
-    width: 30%;
-    height: 8%;
-    margin-left: 68%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 30%;
-}
-
-.ret9{
-    height: 50%;
-    width: 100%;
-    background-image: url(../imagens/ret9.jpg);
-    background-size: cover;
-}
-
-.ret10{
-    width: 100%;
-    height: 50%;
-    background-image: url(../imagens/Ret10.jpg);
-    background-size: cover;
-}
-
-.ret11 {
-    height: 100%;
-    width: 65%;
-    background-image: url(../imagens/Ret11.jpg);
-    background-size: cover;
-}
-
 .parte-baixo {
     height: 50vh;
     width: 100vw;
@@ -100,50 +18,19 @@
 
 .cinco-imagens {
     height: 75%;
-    width: 90%;
+    width: 95%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    padding-left: 6%;
+    padding-left: 3%;
 }
 
-.rets1 {
-    height: 100%;
-    width: 15%;
-    background-image: url(../imagens/Ret13.jpg);
-    background-size: cover;
-}
-.rets2 {
-    height: 100%;
-    width: 15%;
-    background-image: url(../imagens/Ret14.jpg);
-    background-size: cover;
-}
-.rets3 {
-    height: 100%;
-    width: 15%;
-    background-image: url(../imagens/Ret15.jpg);
-    background-size: cover;
-}
-.rets4 {
-    height: 100%;
-    width: 15%;
-    background-image: url(../imagens/Ret16.jpg);
-    background-size: cover;
-}
-.rets5 {
-    height: 100%;
-    width: 15%;
-    background-image: url(../imagens/Ret17.jpg);
-    background-size: cover;
-}
 .lado-direito{
     height: 100%;
     width: 8%;
 }
 
 .cart{
-    margin-top: 120%;
+    margin-top: 150%;
     height: 35%;
     width: 85%;
     border-radius: 100%;
@@ -169,7 +56,7 @@
     width: 40%;
     height: 9%;
     background-color:white;
-    border-radius: 10%;
+    border-radius: 8px;
 }
 
 .prices p{

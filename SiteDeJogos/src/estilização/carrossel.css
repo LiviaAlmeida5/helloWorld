@@ -1,0 +1,93 @@
+.slider-container{
+    height: 30vh;
+    width: 80vw;
+}
+
+.tres-imagens {
+    height: 100%;
+    width: 100%;
+    padding-left: 5rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.duas-imagens {
+    height: 100%;
+    width: 35%;
+}
+
+.desconto-duas-imagens{
+    width: 60%;
+    height: 16%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.desc{
+    width: 40%;
+    height: 70%;
+    background-color: #4B626C;
+    margin-top: 70%;
+    border-radius: 10%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.preços2{
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    margin-top: 70%;
+    border-radius: 10%;
+    color: #4B626C;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.desconto-uma-imagem{
+    width: 30%;
+    height: 8%;
+    margin-left: 68%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30%;
+}
+
+.ret9{
+    height: 50%;
+    width: 100%;
+    background-image: url(../imagens/ret9.jpg);
+    background-size: cover;
+}
+
+.ret10{
+    width: 100%;
+    height: 50%;
+    background-image: url(../imagens/Ret10.jpg);
+    background-size: cover;
+}
+
+.ret11 {
+    height: 50%;
+    width: 62%;
+    background-image: url(../imagens/Ret11.jpg);
+    background-size: cover;
+}
+
+.pra-organizar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
