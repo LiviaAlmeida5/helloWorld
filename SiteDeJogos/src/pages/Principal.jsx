@@ -1,13 +1,8 @@
 import React from "react";
 import "../estilização/princ.css";
-import Ret9 from "../imagens/Ret9.jpg"
 import NavBar from "../usoComum/NavBar";
 import Footer from "../usoComum/Footer";
-import Ret13 from "../imagens/Ret13.jpg";
-import Ret14 from "../imagens/Ret14.jpg";
-import Ret15 from "../imagens/Ret15.jpg";
-import Ret16 from "../imagens/Ret16.jpg";
-import Ret17 from "../imagens/Ret17.jpg";
+import cart from "../imagens/cart.png";
 
 function Principal() {
     return (
@@ -78,7 +73,9 @@ function Principal() {
                         </div>
                     </div>
                     <div className="lado-direito">
-                        <div className="cart"></div>
+                        <div className="cart">
+                                <img src={cart} alt="" />
+                        </div>
                     </div>
                 </div> 
             </div>

@@ -5,6 +5,7 @@ import Footer from "../usoComum/Footer";
 import ret9 from "../imagens/ret9.jpg";
 import Ret10 from "../imagens/Ret10.jpg";
 import Ret11 from "../imagens/Ret11.jpg";
+import cart from "../imagens/cart.png";
 
 function Populares() {
     return (
@@ -54,6 +55,7 @@ function Populares() {
             </div>
             <div className="carrinho">
                 <div className="circle">
+                    <img src={cart} alt="" />
                 </div>
             </div>
             <Footer />

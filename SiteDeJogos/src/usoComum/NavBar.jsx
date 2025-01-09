@@ -1,44 +1,26 @@
 import React from "react";
+import { useState } from 'react'
 import "../estilização/barra.css";
 import imagem2 from "../imagens/imagem2.png";
+import sanduiche from "../imagens/sanduiche.png";
+import x from "../imagens/x.png";
 
 function NavBar() {
+    const[click, setClick]=useState(false);
 
-    function clickMenu(){
-        if (rectangle43.barra.display == 'none'){
-            rectangle43.barra.display = 'flex'
-        } else {
-            rectangle43.barra.display ='none'
-        }
-        return
+    const menuClick=()=>{
+        setClick(!click);
     }
+
     return (
         <header className="BarraNavegação" >
-            <div className="em-ordem">
+            <div id={click?'rectangle43' : 'retangulo-barra'}>
                 <div className="imgNavbar">
                     <img src={imagem2} alt="" />
                 </div>
-                <a className="pbarra" href="/principal">Lançamentos</a>
-                <div className="traço" ></div>
-                <a className="pbarra" href="/populares">Populares</a>
-                <div className="traço" ></div>
-                <a className="pbarra" href="/administrador">Admin</a>
-                <div className="traço" ></div>
-                <a className="pbarra" href="/login">Promoções</a>
-                <div className="traço" ></div>
-                <a className="pbarra" href="/menu">Contas</a>
-                <input className="search" />
-                <div className="tres-traços" onClick={clickMenu()}>
-                    <div className="um-traço"></div>
-                    <div className="um-traço"></div>
-                    <div className="um-traço"></div>
-                </div>
-                </div>
-                <div className="linha-de-separaçao"></div>
-                <div id="rectangle43">
-                <div id="botao-x"> 
-                    <a href="/principal"></a>
-                </div>
+                <button id="botao-y" onClick={menuClick}>
+                    <img src={x} alt="" />
+                </button>
                 <ul className="palavras">
                     <li className="menut"><a href="/principal">Lançamentos</a></li>
                     <li className="menut"><a href="/populares">Populares</a></li>
@@ -47,8 +29,11 @@ function NavBar() {
                     <li className="menut"><a href="#">Conta</a></li>
                 </ul>
                 <div className="pesquisar-menu">
-                    <input id="pesquisar-menu" type="text" />
+                    <input className="pesquisar-menus" type="text" />
                 </div>
+                <button id="botao-x" onClick={menuClick}>
+                    <img src={sanduiche} alt="" />
+                </button>
             </div>
         </header>
     );

@@ -144,11 +144,18 @@
 
 .cart{
     margin-top: 120%;
-    height: 41.5%;
-    width: 100%;
+    height: 35%;
+    width: 85%;
     border-radius: 100%;
-    background-image: url(../imagens/carrinho.png);
-    background-size: cover;
+    border-style: solid;
+    border-color: white;
+}
+
+.cart img{
+    margin-top: 8%;
+    margin-left: 5%;
+    height: 85%;
+    width: 85%;
 }
 
 .cart:hover{
