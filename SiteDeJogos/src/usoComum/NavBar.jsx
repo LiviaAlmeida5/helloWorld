@@ -25,7 +25,7 @@ function NavBar() {
                     <li className="menut"><a href="/principal">Lançamentos</a></li>
                     <li className="menut"><a href="/populares">Populares</a></li>
                     <li className="menut"><a href="/administrador">Administrador</a></li>
-                    <li className="menut"><a href="#">Promoções</a></li>
+                    <li className="menut"><a href="/login">Promoções</a></li>
                     <li className="menut"><a href="#">Conta</a></li>
                 </ul>
                 <div className="pesquisar-menu">

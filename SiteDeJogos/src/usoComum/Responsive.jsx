@@ -6,7 +6,7 @@ import "../estilização/responsive.css";
 
 function Responsive() {
     var settings = {
-        centerPadding: '30px',
+        centerPadding: '50px',
         dots: true,
         infinite: false,
         speed: 500,
@@ -15,12 +15,19 @@ function Responsive() {
         initialSlide: 0,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1100,
                 settings: {
                     slidesToShow: 4,
                     slidesToScroll: 1,
                     infinite: false,
                     dots: true
+                }
+            },
+            {
+                breakpoint: 850,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
                 }
             },
             {
@@ -32,7 +39,7 @@ function Responsive() {
                 }
             },
             {
-                breakpoint: 400,
+                breakpoint: 415,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -43,7 +50,7 @@ function Responsive() {
     return (
         <div className="slider-container-responsive">
             <Slider {...settings}>
-                    <div className="rets1">
+                    <div style={{marginRight: "10px"}} className="rets1">
                         <div className="prices">
                             <p>R$ 299,90</p>
                         </div>

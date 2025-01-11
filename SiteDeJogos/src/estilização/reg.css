@@ -78,26 +78,19 @@ color: #97A4A2;
 }
 
 @media (max-width:1500px) {
-    html {
-        font-size: 80%;
-    }
     .primeiraTelas{
         height: 110vh;
     }
 }
 @media (max-width:1100px) {
-    html {
-        font-size: 70%;
-    }
+  
     .primeiraTelas{
         height: 90vh;
 
     }
 }
 @media (max-width:850px) {
-    html {
-        font-size: 60%;
-    }
+    
     .primeiraTelas{
         height: 75vh;
 
@@ -105,26 +98,26 @@ color: #97A4A2;
 }
 
  @media (max-width:768px) {
-     html {
-         font-size: 50%;
-     }
+    
      .primeiraTelas{
         height: 60vh;
      }
  }
 
 
-@media (max-width:400px){
+@media (max-width:415px){
   .primeiraTelas{
       width: 100vw;
-      height: 100vh;
+      height: 150vh;
       flex-direction: column;
       flex-direction: column-reverse;
   } 
   .reg{
+      height: 60vh;
       width:100%;
   }
   .container-imagem{
+    height: 50vh;
       width: 100%;
   }
   .container-imagem img{

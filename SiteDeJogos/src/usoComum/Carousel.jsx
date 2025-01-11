@@ -6,7 +6,7 @@ import "../estilização/carrossel.css";
 
 function Carousel() {
     const settings = {
-        centerPadding: '2px',
+        centerPadding: '0px',
         centerMode: true,
         dots: true,
         infinite: false,

@@ -49,13 +49,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0.8rem;
+  
   }
 
   .titulo-texto{
     width: 57%;
     color: #4B626C;
-    
     font-style: normal;
     margin-left: 5%;
   }
@@ -105,50 +104,42 @@
   .circle:hover{
     opacity: 0.8;
   }
-/*
+
   @media (max-width:1620px) {
-    html{
-      font-size: 80%;
-    }
     .sessao-branca-populares{
-      height: 100vh;
+      height: 135vh;
+    }
+    .paragrafos{
+      font-size: 1.2rem;
+    }
+    .carrinho{
+      height: 10vh;
+    }
+  }
+
+  @media (max-width:1000px) {
+    .sessao-branca-populares{
+      height: 135vh;
+     
+    }
+    .titulo-texto{
+      font-size: 1rem;
     }
     .carrinho{
       height: 8vh;
     }
   }
 
-  @media (max-width:1000px) {
-    html{
-      font-size: 70%;
-    }
+  @media (max-width:768px) {
     .sessao-branca-populares{
-      height: 60vh;
+      height: 135vh;
     }
     .carrinho{
       height: 6vh;
     }
   }
 
-  @media (max-width:768px) {
-    html{
-      font-size: 60%;
-    }
-    .sessao-branca-populares{
-      height: 60vh;
-    }
-    .carrinho{
-      height: 4vh;
-    }
-    .telaPop{
-      height: 99vh;
-    }
-  }
-*/
-@media (max-width:400px) {
-  html{
-    font-size: 115%;
-  }
+@media (max-width:415px) {
   .sessao-branca-populares{
     height: 200vh;
   }
@@ -159,24 +150,40 @@
  .jogo:nth-child(3){
   flex-direction: column;
 }
+.pop{
+  font-size: 3rem;
+}
 .titulo-texto{
   width: 98%;
 }
+.title{
+  font-size: 2rem;
+}
 .container-imagemp{
   width: 90%;
+  height: 80%;
   margin-left: 5%;
 }
 .bolinhas{
-  height: 25%;
-  width: 11%;
+  height: 23%;
+  width: 15%;
+}
+.numbers{
+  font-size: 2rem;
+  margin-top: 0.5rem;
 }
 .circle{
   margin-left: 80%;
   width: 13%;
   height: 81%;
 }
-
+.paragrafos{
+  font-size: 1rem;
+}
 .bolinhas:nth-child(3){
   display: none;
+}
+.carrinho{
+  height: 10.5vh;
 }
 }

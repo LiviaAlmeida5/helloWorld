@@ -1,0 +1,56 @@
+.slider-container3{
+    height: 30vh;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.foto1{
+    margin-top: 4rem;
+    height: 25vh;
+    width: 100vw;
+    background-image: url(../imagens/ret9.jpg);
+    background-size: cover;
+}
+
+.foto2{
+    margin-top: 4rem;
+    height: 25vh;
+    width: 100vw;
+    background-image: url(../imagens/Ret10.jpg);
+    background-size: cover;
+}
+
+.foto3{
+    margin-top: 4rem;
+    height: 25vh;
+    width: 100vw;
+    background-image: url(../imagens/Ret11.jpg);
+    background-size: cover;
+}
+.desc-fotos{
+    width: 20%;
+    height: 1.5rem;
+    background-color: #4B626C;
+    margin-top: 46%;
+    border-radius: 10%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.preços10{
+    width: 50%;
+    height: 1.5rem;
+    background-color: white;
+    border-radius: 10%;
+    color: #4B626C;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 25%;
+}

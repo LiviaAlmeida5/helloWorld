@@ -99,37 +99,59 @@
     font-size: 1.4rem;
     margin-bottom: 85%;
 }
-/*
+
 @media (max-width:1500px) {
-    html {
+    .inserir,
+    .descriçao,
+    .cadastrar-se,
+    .cadastrar-se2,
+    .inserir5{
         font-size: 80%;
     }
+    .titlerec2,
+    .titlerec{
+        font-size: 3rem;
+    }
     .tela-administrador{
-        height: 80vh;
+        height: 100vh;
     }
 }
 @media (max-width:1000px) {
-    html {
+    .inserir,
+    .descriçao,
+    .cadastrar-se,
+    .cadastrar-se2,
+    .inserir5{
         font-size: 70%;
+    }  
+    .titlerec2,
+    .titlerec{
+        font-size: 2.5rem;
+    }
+    .tela-administrador{
+        height: 70vh;
+    }
+}
+
+@media (max-width:768px) {
+    .inserir,
+    .descriçao,
+    .cadastrar-se,
+    .cadastrar-se2,
+    .inserir5{
+        font-size: 60%;
+    }
+    .titlerec2,
+    .titlerec{
+        font-size: 2rem;
     }
     .tela-administrador{
         height: 60vh;
     }
 }
 
-@media (max-width:768px) {
-    html {
-        font-size: 50%;
-    }
-    .tela-administrador{
-        height: 45vh;
-    }
-}*/
-
-@media (max-width:400px) {
-    html {
-        font-size: 50%;
-    }
+@media (max-width:415px) {
+   
     .tela-administrador{
         flex-direction: column;
         height: 140vh;

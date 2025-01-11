@@ -4,7 +4,6 @@ import imagem2 from "../imagens/imagem2.png";
 
 function Footer() {
     return (
-
         <footer className="telaFooter" >
             <div className="encima">
                 <div className="imgFooter">
@@ -31,7 +30,6 @@ function Footer() {
             </div>
             <p className="msngfooter">2024 Game Dame | By Emakers Júnior</p>
         </footer>
-
     );
 }
 
