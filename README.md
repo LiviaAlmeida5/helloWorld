@@ -16,7 +16,7 @@ Esse projeto foi criado com o intuito de ser um site de vendas de jogos, nele h�
 
 ## Como executar a aplicação
 
-* Clone o link do projeto : `comando`
+* Clone o link do projeto : `https://github.com/LiviaAlmeida5/helloWorld.git`
 
 * Instale as seguintes dependêndias:`npm install`, `npm install react-slick --save`, `npm i react-router-dom`.
 
